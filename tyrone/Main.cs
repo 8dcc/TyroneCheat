@@ -1,9 +1,6 @@
-﻿using Steamworks;
-using System.IO;
-using UnityEngine;
-using UnityEngine.UIElements;
+﻿using UnityEngine;
 
-namespace tyrone 
+namespace TyroneCheat
 {
     internal class Main : MonoBehaviour
     {
@@ -31,11 +28,8 @@ namespace tyrone
 
         public void OnGUI()
         {
-            /* Watermark settings */
-            Vector2 pos = new Vector2(10f, 10f);
-            string str = "TyroneHakZ420 (8dcc)";
-
-            Renderer.DrawString(pos, str, new Color(0.9f, 0.9f, 0.9f), false);
+            /* Watermark */
+            Renderer.DrawString(new Vector2(10f, 10f), "TyroneHakZ420 (8dcc)", new Color(0.9f, 0.9f, 0.9f), false);
         }
     }
 }

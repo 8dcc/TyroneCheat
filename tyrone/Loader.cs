@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace tyrone
+namespace TyroneCheat
 {
     public class Loader
     {
